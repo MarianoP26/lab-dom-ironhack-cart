@@ -6,8 +6,6 @@ const createBtn = document.querySelector('#create');
 // ITERATION 1
 
 function updateSubtotal() {
-  console.log('Calculating subtotal, yey!');
-
   let price = document.querySelectorAll('.price span');
   let subtotal = document.querySelectorAll('.subtotal span');
   let acc = 0;
@@ -22,12 +20,6 @@ function updateSubtotal() {
 }
 
 function calculateAll() {
-  // code in the following two lines is added just for testing purposes.
-  // it runs when only iteration 1 is completed. at later point, it can be removed.
-  // const singleProduct = document.querySelector('.product');
-  // updateSubtotal(singleProduct);
-  // end of test
-
   // ITERATION 2
   let total = document.querySelector('#total-value span');
   let totalSum = updateSubtotal();
